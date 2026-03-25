@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ToolbarTitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="fontFamily">@font/c</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CircleImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="CustomNavigationView" parent="Widget.Design.NavigationView">
+        <item name="itemIconTint">@color/blue</item>
+        <item name="itemTextColor">@color/black</item>
+        <item name="fontFamily">@font/c</item>
+    </style>
+</resources>

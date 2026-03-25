@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F7FB"
+    android:padding="24dp">
+
+     <com.google.android.material.card.MaterialCardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="10dp"
+        app:cardBackgroundColor="@android:color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="32dp">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/l"
+                android:backgroundTint="#6C63FF"
+                android:layout_marginBottom="24dp"/>
+
+            <TextView
+                android:fontFamily="@font/m"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Welcome"
+                android:textSize="28sp"
+                android:textColor="#1F2937"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:fontFamily="@font/r"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Organize your life beautifully and stay productive every day"
+                android:textSize="15sp"
+                android:textColor="#6B7280"
+                android:gravity="center"
+                android:layout_marginBottom="28dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnStart"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="Get Started"
+                android:textStyle="bold"
+                android:fontFamily="@font/u"
+                android:textColor="@android:color/white"
+                app:cornerRadius="14dp"
+                app:backgroundTint="#6C63FF"
+                app:elevation="6dp"/>
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

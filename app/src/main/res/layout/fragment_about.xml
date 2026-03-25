@@ -1,0 +1,101 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:windowBackground">
+
+     <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:contentDescription="Back"
+        android:src="@drawable/back"
+        app:tint="@android:color/white"
+        app:backgroundTint="@color/blue"
+        android:layout_gravity="start|top" />
+
+     <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/logo"
+                android:scaleType="centerCrop"
+                app:shapeAppearanceOverlay="@style/CircleImageView"/>
+
+            <TextView
+                android:text="Aslzoda Nav Drawer Toolbar"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/asl"
+                android:layout_marginTop="16dp"
+                android:textColor="?android:textColorPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Smart • Beautiful • Modern"
+                android:textSize="14sp"
+                android:fontFamily="@font/c"
+                android:textColor="?android:textColorSecondary"
+                android:layout_marginBottom="24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/aboutCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="28dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:padding="26dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:fontFamily="@font/s"
+                        android:text="Version 1.0.0"
+                        android:textColor="?android:textColorSecondary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:fontFamily="@font/c"
+                        android:textStyle="bold"
+                        android:text="💻Developer\n Aslzoda Bozorboyeva"
+                        android:layout_marginTop="8dp"
+                        android:textColor="?android:textColorPrimary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:fontFamily="@font/d"
+                        android:text="🚀 Boost your productivity with ease!\n📚 Organize your tasks, plan your study schedule, and stay focused.\n✨ Study smarter, not harder."
+                        android:textSize="15sp"
+                        android:lineSpacingExtra="6dp"
+                        android:layout_marginTop="16dp"
+                        android:textColor="?android:textColorPrimary"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
