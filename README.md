@@ -80,47 +80,31 @@ The project focuses on building a **clean, maintainable, and user-friendly appli
 
 ## 🏠 Main Screens
 
-| Edit Profile | Settings | Create Account |
-|-------------|-------------|-------------|
-| ![](https://github.com/user-attachments/assets/0fa4a343-02f9-453f-9d4d-1fd1e09ab40d) | ![](https://github.com/user-attachments/assets/e984ecbc-4449-4022-b21e-79f3809df483) | ![](https://github.com/user-attachments/assets/20db03a6-1bc7-4252-ad50-533337d05956) |
+| Settings |  Welcome Screen | About |
+|:---:|:---:|:---:|
+| ![](https://github.com/user-attachments/assets/9b6be5be-6e53-49a0-b16f-709d395fd8b9) | ![](https://github.com/user-attachments/assets/d2aa0de5-92c7-49ef-a9cb-f6a863110988) | ![](https://github.com/user-attachments/assets/750fa50b-028a-4bec-b67a-2c7914e5d26d) |
 
 ---
 
 ## 📋 Task Management
-
-| Drawer | Choose Date | Log Out |
-|-------------|-------------|-------------|
-| ![](https://github.com/user-attachments/assets/4f4d6564-1f0c-4db4-8bdd-876075001663) | ![](https://github.com/user-attachments/assets/f39ee94c-924e-46aa-afd8-41bf72d9fcb6) | ![](https://github.com/user-attachments/assets/231abab0-29e0-49c6-ae94-d6aaaedc9bdd) |
-
----
-
-## 🔍 Search & Filters
-
-| Add Task | All Tasks | Filter |
-|-------------|-------------|-------------|
-| ![](https://github.com/user-attachments/assets/4da4a5b1-81ed-47b9-8200-19b7aa9e738f) | ![](https://github.com/user-attachments/assets/699fc02b-2d1f-401c-b563-4e685a39b393) | ![](https://github.com/user-attachments/assets/6f762fd5-a3ae-434c-ab01-f51e4769944a) |
+| Add Task | Create Account| Drawer |
+|:---:|:---:|:---:|
+| ![](https://github.com/user-attachments/assets/15ce3b68-7868-40e3-8532-ae19d81a0de8) | ![](https://github.com/user-attachments/assets/9e7d29bf-8035-42ee-9370-810f908d5363) | ![](https://github.com/user-attachments/assets/e1524799-e32f-46d8-9c62-2ab92e2f1c7d) |
 
 ---
 
-## ⚙️ Settings & More
-
-| Stats | Welcome | About |
-|-------------|-------------|-------------|
-| ![](https://github.com/user-attachments/assets/e65b614f-2838-45da-9f7a-8b184d368dc3) | ![](https://github.com/user-attachments/assets/55528f18-1382-461e-bf2b-6858d398c88f) | ![](https://github.com/user-attachments/assets/aa8ec245-92de-4a39-a1c5-5a2bf70e1e3a) |
-
----
-
-# 📦 Download APK
-
-<p align="center">
-
-🚀 **Try the app on your device**
-
-👉 **[Download APK](apk/aslzoda-nav-drawer-toolbar.apk)**
-
-</p>
+## 🔍 Features & Tools
+| Edit Profile | Search & Filter | Log Out |
+|:---:|:---:|:---:|
+| ![](https://github.com/user-attachments/assets/fc26ea90-56a1-44d9-a7fe-f16e4672b705) | ![](https://github.com/user-attachments/assets/9f7266e0-a641-4d42-aa4d-5670b1b7c559) | ![](https://github.com/user-attachments/assets/75f00bff-f67d-4d9d-afb0-8c7ad0bdb799) |
 
 ---
+
+## ⚙️ Settings & About
+| App Task | Statistics |
+|:---:|:---:|
+| ![](https://github.com/user-attachments/assets/61f2f131-0de8-4beb-8f7e-a53d685e6dfc) | ![](https://github.com/user-attachments/assets/34e43738-b9bd-411b-a389-dc8e340a2539) |
+
 
 # 🛠 Tech Stack
 
