@@ -1,4 +1,4 @@
-<h1 align="center">📚 Smart Study Hub  </h1>
+<h1 align="center">📚 𝒮𝓂𝒶𝓇𝓉 𝒮𝓉𝓊𝒹𝓎 𝐻𝓊𝒷  </h1>
 
 <p align="center">
 A modern Android productivity application built to demonstrate <b>real-world Android development</b>.
