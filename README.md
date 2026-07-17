@@ -120,6 +120,3 @@ The project focuses on building a **clean, maintainable, and user-friendly appli
 
 
 𝑪𝒓𝒆𝒂𝒕𝒆𝒅 𝒃𝒚 𝑨𝒔𝒍𝒛𝒐𝒅𝒂 🌈🚀🫧
-
-
-aslzoda
